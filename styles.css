@@ -1,0 +1,147 @@
+/*
+* {
+	  margin: 0;
+	  padding: 0;
+}
+*/
+
+/*--------COLORS-----*/
+
+/*------------------*/
+body {
+    font-family: helvetica;
+    background-color: #eee;
+/*    padding: 0;*/
+    margin: 0;
+    background-image: url(tvfeedback.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
+
+nav {
+   
+    background-color: black;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0px;
+    position: fixed;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+nav ul li{
+    background color: aliceblue;
+    float: right;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    padding: 14px 16px;
+    
+}
+nav li a:hover{
+/*    background-color: darkcyan;*/
+/*    background-color: rgb(158, 218, 255);*/
+    background-color: #8ad7fb;
+    color: black;
+}
+
+#homelink {
+    float: left;
+}
+main {
+    padding: 3%;
+}
+.main_section {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.95);
+/*
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+*/
+    margin: 10px auto;
+    width: 90%;
+    box-shadow: 3px 3px 10px 2px #888888; 
+    text-align: center;
+    padding-bottom: 1px
+    
+        
+}
+.main_section h3 {
+    background-color: #c5e3fb;
+    padding: 1vh;
+     border: 5px outset #818cf0;
+}
+.main_section h4{
+    background-color: #c5e3fb;
+    padding: 10px;
+   
+    
+}
+.main_section ul{
+    text-align: left;
+/*    list-style: none;*/
+    padding: 0 6vw;
+}
+
+
+#profile {
+    margin-top: 42px;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 3px 3px 10px 2px #888888; 
+/*
+    background-image: url(tvfeedback.png);
+    background-size: cover;
+*/
+    
+}
+#profile h1{
+    border: 5px solid #a19af0;
+    border-radius: 10px;
+    margin: 2vh auto;
+    padding: 4px;
+    width: 320px;
+    
+}
+#profile h3{
+    text-align: left;
+}
+#profile p{
+    text-align: left;
+}
+
+#profile_text {
+    margin-left: 10%;
+    font-size: 1.em;
+}
+
+@media only screen and (min-width: 800px) {
+    .mainsection{
+        display: inline-block;
+        width: 40%;
+        background-color: red;
+    }
+}
